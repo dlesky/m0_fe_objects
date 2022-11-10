@@ -34,6 +34,7 @@ console.log(Object.values(foods)[1])
 // YOUR CODE HERE
 
 foods.grapefruit=7
+console.log(foods)
 
 // #-------------------
 // // Part 2: Email
