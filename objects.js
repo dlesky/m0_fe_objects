@@ -114,3 +114,28 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+
+var emails = [{
+  sender:"Sting", 
+  receiver:"Bob Dylan", 
+  subject:"your extended warranty", 
+  date:"12/10/21",
+  time:"10:45pm"
+},
+{
+sender:"Madonna", 
+  receiver:"Jimi Hendrix", 
+  subject:"beach vacation", 
+  date:"12/11/21",
+  time:"8:45am"
+},
+{
+sender:"Bach", 
+  receiver:"Mozart", 
+  subject:"Happy Hour!", 
+  date:"12/10/85",
+  time:"6:45pm"
+}]
+
+console.log(emails)
